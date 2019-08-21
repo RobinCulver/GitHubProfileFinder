@@ -97,7 +97,7 @@ img {
   text-align: left;
 }
 
-/* Center All */
+
 .all-center {
   display: flex;
   flex-direction: column;
@@ -172,7 +172,6 @@ img {
   margin: 3rem 0;
 }
 
-/* Grid */
 .grid-2 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -302,7 +301,6 @@ img {
   border-radius: 50%;
 }
 
-/* Forms */
 input {
   margin: 1.2rem 0;
 }
@@ -314,9 +312,6 @@ input {
 }
 
 input[type='text'],
-input[type='email'],
-input[type='password'],
-input[type='date'],
 select,
 textarea {
   display: block;
@@ -368,39 +363,4 @@ table th {
 
 .navbar .welcome span {
   margin-right: 0.6rem;
-}
-
-/* Mobile Styles */
-@media (max-width: 700px) {
-  .hide-sm {
-    display: none;
-  }
-
-  .grid-2,
-  .grid-3,
-  .grid-4 {
-    grid-template-columns: 1fr;
-  }
-
-  .x-large {
-    font-size: 3rem;
-  }
-
-  .large {
-    font-size: 2rem;
-  }
-
-  .lead {
-    font-size: 1rem;
-  }
-
-  .navbar {
-    display: block;
-    text-align: center;
-  }
-
-  .navbar ul {
-    text-align: center;
-    justify-content: center;
-  }
 }
